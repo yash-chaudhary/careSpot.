@@ -1,5 +1,5 @@
 # MSA AI Project
-{website link goes here}
+Check out the final product here: {website link goes here}
 
 ## The Idea
 ### Problem Statement
