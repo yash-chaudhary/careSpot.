@@ -1,5 +1,5 @@
 # MSA AI Project
-Check out the final product here: {website link goes here}
+Check out the final project here: {website link goes here}
 
 ## The Idea
 ### Problem Statement
@@ -25,6 +25,8 @@ Check out the final product here: {website link goes here}
 ![Image of Solution Architecture Diagram](https://github.com/yash-chaudhary/careSpot/blob/main/Assets/Solution_Architecture_Diagram.png)
 
 ## Implementation
+Link to final project: {website link goes here}
+
 ### Requirements (flask app)
 Package | Version
 ------------ | -------------
