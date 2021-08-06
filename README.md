@@ -64,7 +64,7 @@ python server.py
 >Package | Version
 >------------ | -------------
 >@testing-library/jest-dom | 5.14.1
-@testing-library/react | 11.2.7
+>@testing-library/react | 11.2.7
 >@testing-library/user-event | 12.8.3
 >axios| 0.21.1
 >react| 17.0.2
