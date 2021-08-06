@@ -33,7 +33,7 @@ python-dotenv | 0.18.0
 requests | 2.26.0
 flask-cors | 3.0.10
 azureml-train-automl-runtime | 1.32.0
-inference-schema | 
+inference-schema | 1.3.0
 azureml-interpret | 1.32.0
 azureml-defaults | 1.32.0
 numpy | >=1.16.0,<1.19.0 
