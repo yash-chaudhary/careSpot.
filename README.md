@@ -27,9 +27,7 @@ Check out the final project here: {website link goes here}
 ## Implementation
 Link to final project: {website link goes here}
 
-Project video demo:
 ![Project demo](https://github.com/yash-chaudhary/careSpot/blob/main/Assets/project_demo.gif)
-
 
 ### Requirements (flask app)
 Package | Version
