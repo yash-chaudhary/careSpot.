@@ -26,7 +26,7 @@ Check out the final product here: {website link goes here}
 
 ## Implementation
 ### Requirements (flask app)
-Package | Version
+>Package | Version
 ------------ | -------------
 flask | 2.0.1
 python-dotenv | 0.18.0
