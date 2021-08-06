@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 Run app locally:
 ```
-cd server/app/
+cd server
 python server.py
 ```
 
