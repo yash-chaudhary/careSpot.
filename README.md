@@ -50,7 +50,7 @@ cd server
 pip install -r requirements.txt
 ```
 
-To run app locally:
+Run app locally:
 ```
 cd server/app/
 python server.py
