@@ -30,23 +30,23 @@ Link to final project: {website link goes here}
 ![Project demo](https://github.com/yash-chaudhary/careSpot/blob/main/Assets/project_demo.gif)
 
 ### Requirements (flask app)
-Package | Version
------------- | -------------
-flask | 2.0.1
-python-dotenv | 0.18.0
-requests | 2.26.0
-flask-cors | 3.0.10
-azureml-train-automl-runtime | 1.32.0
-inference-schema | 1.3.0
-azureml-interpret | 1.32.0
-azureml-defaults | 1.32.0
-numpy | 1.16.0
-pandas | 0.25.1
-scikit-learn | 0.22.1
-py-xgboost | 0.90 
-fbprophet| 0.5
-holidays| 0.9.11
-psutil | 5.2.2
+>Package | Version
+>------------ | -------------
+>flask | 2.0.1
+>python-dotenv | 0.18.0
+>requests | 2.26.0
+>flask-cors | 3.0.10
+>azureml-train-automl-runtime | 1.32.0
+>inference-schema | 1.3.0
+>azureml-interpret | 1.32.0
+>azureml-defaults | 1.32.0
+>numpy | 1.16.0
+>pandas | 0.25.1
+>scikit-learn | 0.22.1
+>py-xgboost | 0.90 
+>fbprophet| 0.5
+>holidays| 0.9.11
+>psutil | 5.2.2
 
 Installing requirements:
 ```
@@ -61,22 +61,22 @@ python server.py
 ```
 
 ### Requirements (react app)
-Package | Version
------------- | -------------
-@testing-library/jest-dom | 5.14.1
+>Package | Version
+>------------ | -------------
+>@testing-library/jest-dom | 5.14.1
 @testing-library/react | 11.2.7
-@testing-library/user-event | 12.8.3
-axios| 0.21.1
-react| 17.0.2
-react-animations | 1.0.0
-react-dom | 17.0.2
-react-router-dom| 5.2.0
-react-scripts| 4.0.3
-react-typist| 2.0.5
-semantic-ui-css| 2.4.1
-semantic-ui-react| 2.0.3
-styled-components | 5.3.0
-web-vitals | 1.1.2
+>@testing-library/user-event | 12.8.3
+>axios| 0.21.1
+>react| 17.0.2
+>react-animations | 1.0.0
+>react-dom | 17.0.2
+>react-router-dom| 5.2.0
+>react-scripts| 4.0.3
+>react-typist| 2.0.5
+>semantic-ui-css| 2.4.1
+>semantic-ui-react| 2.0.3
+>styled-components | 5.3.0
+>web-vitals | 1.1.2
 
 Installing requirements:
 ```
