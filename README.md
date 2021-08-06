@@ -56,5 +56,35 @@ cd server/app/
 python server.py
 ```
 
+### Requirements (react app)
+Package | Version
+------------ | -------------
+@testing-library/jest-dom | 5.14.1
+@testing-library/react | 11.2.7
+@testing-library/user-event | 12.8.3
+axios| 0.21.1
+react| 17.0.2
+react-animations | 1.0.0
+react-dom | 17.0.2
+react-router-dom| 5.2.0
+react-scripts| 4.0.3
+react-typist| 2.0.5
+semantic-ui-css| 2.4.1
+semantic-ui-react| 2.0.3
+styled-components | 5.3.0
+web-vitals | 1.1.2
+
+Installing requirements:
+```
+cd client
+npm install
+```
+
+Run app locally:
+```
+cd client
+npm start
+```
+
 
 
