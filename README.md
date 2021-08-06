@@ -23,3 +23,7 @@ Check out the final product here: {website link goes here}
 
 ## Solution Architecture
 ![Image of Solution Architecture Diagram](https://github.com/yash-chaudhary/careSpot/blob/main/Assets/Solution_Architecture_Diagram.png)
+
+## Implementation
+Requirements for flask and react
+
