@@ -11,11 +11,13 @@ Therefore, despite the seemingly low credibility of the models tested and analys
 ## Results from Azure Automated ML
 Azure Automated ML helped clear some of the confusion that arose due to the analysis in Jupyter notebooks. The performance metrics of the models seemed too good to be true. Using Azure Machine Learning meant that many different pre-processing techniques would be used on the dataset to get it as clean as possible before it was used to train models. The fact that this process was automated is one crucial aspect that added to the scalability of my final solution. After pre-processing, Azure ran a host of differnt classifcation models to fit to the data. The result from this was that Azure picked the best model to be a MinMaxScalar RandomForest. 
 
-The preliminary metrics can be see below, these include the same metrics we were measuring in Jupyter Notebooks as well as some additional ones. As you can see all values are 1 signying 100% or a "perfect model"
-[!Best Azure ML model](https://github.com/yash-chaudhary/careSpot./blob/main/Azure%20Automated%20ML/model_runs/run_7/Screen%20Shot%202021-08-03%20at%204.18.07%20pm.png)
+The preliminary metrics can be see below, these include the same metrics we were measuring in Jupyter Notebooks as well as some additional ones. As you can see all values are 1 signifying 100% or a "perfect model"
+
+![Best Azure ML model](https://github.com/yash-chaudhary/careSpot./blob/main/Azure%20Automated%20ML/model_runs/run_7/Screen%20Shot%202021-08-03%20at%204.18.07%20pm.png)
 
 Funnily enough, the worst before model (not by a large margin) was the MinMaxScalar Decision Tree.
-[!Worst Azure Ml model](https://github.com/yash-chaudhary/careSpot./blob/main/Azure%20Automated%20ML/model_runs/run_24/Screen%20Shot%202021-08-03%20at%204.42.01%20pm.png)
+
+![Worst Azure Ml model](https://github.com/yash-chaudhary/careSpot./blob/main/Azure%20Automated%20ML/model_runs/run_24/Screen%20Shot%202021-08-03%20at%204.42.01%20pm.png)
 
 
 
