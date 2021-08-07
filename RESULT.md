@@ -15,8 +15,11 @@ The preliminary metrics can be see below, these include the same metrics we were
 
 ![Best Azure ML model](https://github.com/yash-chaudhary/careSpot./blob/main/Azure%20Automated%20ML/model_runs/run_7/Screen%20Shot%202021-08-03%20at%204.27.48%20pm.png)
 
+
 The confusion matrix of the best performing (Random Forest) is pretty much identical to the confusion matrix seen in Jupyter notebooks
+
 ![Best Confusion Matrix](https://github.com/yash-chaudhary/careSpot./blob/main/Azure%20Automated%20ML/model_runs/run_7/Screen%20Shot%202021-08-03%20at%204.28.53%20pm.png)
+
 
 Funnily enough, the worst before model (not by a large margin) was the MinMaxScalar Decision Tree.
 
@@ -24,12 +27,14 @@ Funnily enough, the worst before model (not by a large margin) was the MinMaxSca
 
 Here is also the confusion matrix of the Desision Tree algorithm. This matrix although still fairly accuracte as seen my the digonal line, still seems more reflective of what a we expect the best model confusion matrix, i.e. not perfectly diagonal but still very accurate. However the fact that this model wasn't able to achive 100% accuracy given the dataset, it must be deemed the worst out of the test.
 
+
 ![Worst Confusion Matrix](https://github.com/yash-chaudhary/careSpot./blob/main/Azure%20Automated%20ML/model_runs/run_24/Screen%20Shot%202021-08-03%20at%204.43.00%20pm.png)
 
 
 A very important aspect of machine learning that aims to be considered in the future is feature engineering. Feature engineering involves the selection of features based on their importance in the dataset. Azure has graphed for us the feature importance in the dataset given the Random Forest (best algorithm).
 
 ![Fearure importance graph](https://github.com/yash-chaudhary/careSpot./blob/main/Azure%20Automated%20ML/model_runs/run_7/Screen%20Shot%202021-08-03%20at%204.37.30%20pm.png)
+
 
 As you can see above, there are several features that bear no influence on the data. Hence to improve this solution, feature engineering should be done in the future where we select a subset of the most important features to better represent the data, hence making solution more understandable and easier to use and may even lead to better, more accurate predictions with the side benefit of smaller dataset which can be trained faster. In the end the model that was selected was the MinMaxScalar Random Forest that Automated ML picked. The obvious reasons for this are that it was the most accurate model out of the three that were analysed and moreover in the pre-run configurations, I had asked Azure to benchmark all classification models against each other. Hence the many pre-processing that Azure did coupled with the comparison of a vast number of ML models, roughly 43 runs, deduced that the MinMaxScalar Random Forest was the best model. This conclusion couldn't be contested since in Jupyter Notebooks, only one version of each type of classifcation model was tested and yielded information that wasn't super helpful to determine a clear best performing model.
 
