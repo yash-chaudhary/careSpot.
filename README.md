@@ -1,5 +1,5 @@
 # MSA AI Project
-Check out the final project here: https://carespot.herokuapp.com/
+Check out the final project here: https://carespot.herokuapp.com/ (This prediction functionality no longer works as the cloud service has been stopped)
 
 ## The Idea
 ### Problem Statement
@@ -25,7 +25,7 @@ Check out the final project here: https://carespot.herokuapp.com/
 ![Image of Solution Architecture Diagram](https://github.com/yash-chaudhary/careSpot/blob/main/Assets/Solution_Architecture_Diagram.png)
 
 ## Implementation
-Link to final project: https://carespot.herokuapp.com/
+Link to final project: https://carespot.herokuapp.com/ (This prediction functionality no longer works as the cloud service has been stopped)
 
 ![Project demo](https://github.com/yash-chaudhary/careSpot/blob/main/Assets/project_demo.gif)
 
