@@ -1,7 +1,7 @@
 # MSA AI Project
 Check out the final project here: https://carespot.herokuapp.com/ 
 
-(This prediction functionality no longer works as the cloud service has been stopped)
+(The prediction functionality no longer works as the cloud service has been stopped)
 
 ## The Idea
 ### Problem Statement
@@ -29,7 +29,7 @@ Check out the final project here: https://carespot.herokuapp.com/
 ## Implementation
 Link to final project: https://carespot.herokuapp.com/ 
 
-(This prediction functionality no longer works as the cloud service has been stopped)
+(The prediction functionality no longer works as the cloud service has been stopped)
 
 ![Project demo](https://github.com/yash-chaudhary/careSpot/blob/main/Assets/project_demo.gif)
 
